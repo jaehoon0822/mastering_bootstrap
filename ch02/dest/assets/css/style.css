@@ -9235,3 +9235,27 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+/* line 1, assets/sass/layouts/_grid.scss */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    /* line 1, assets/sass/layouts/_grid.scss */
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    /* line 1, assets/sass/layouts/_grid.scss */
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    /* line 1, assets/sass/layouts/_grid.scss */
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    /* line 1, assets/sass/layouts/_grid.scss */
+    .container {
+      max-width: 1140px; } }
